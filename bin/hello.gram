@@ -1,0 +1,31 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = ( details | submit | Rename | Reset | menu | About | join | contact );
+
+public <create>= ( create ) (table | sequence | user | index );
+
+public <new> = (Insert | Add) (record);
+
+public <app> = (stop) (query);
+
+public <query> = (select | update | native ) (query);
+
+public <tab> = (lock) (table | user );
+
+public <command> = (drop) (table | sequence | user | index);
+
+public <action> = (modify | pick) ( password | table | columns | constraints );
+
+
+/*
+*   public <command> = ( Open | Close ) (command| calculator |word | access |pad | paint |task manager|Browser );
+*   public <greet> = (Power Options |Program| Browser | Blue |  Device Manager |Control | Player |task manager | Windows Security Center );
+*   public <action> = (start | stop ) (excel |photo shop |nero |word pad|fire wall | recognize);
+*   public <net> = (site) (face book | go girl | mail);
+**/

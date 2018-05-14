@@ -7,3 +7,7 @@ GUI is built using Java Swing. And for performing database operations, JDBC is b
 #### Libraries used -
 - FreeTTS *(for speech synthesis)*
 - sphinx *(for speech recognition)*
+
+#### Preview(All-in-one) - 
+
+![alt text](https://github.com/suyash248/QueryBuilder/blob/master/Icon/screenshots.png)
